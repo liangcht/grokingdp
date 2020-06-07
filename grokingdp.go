@@ -13,5 +13,9 @@ func main() {
 	// solution.TestMinimumJumpToEnd()
 	// solution.TestMinimumJumpsWithFee()
 	// solution.TestHouseThief()
-	solution.TestLongestPalindomicSubsequence()
+	// solution.TestLongestPalindomicSubsequence()
+	// solution.TestLongestPalindromixSubstring()
+	// solution.TestCountPalindromicSubstring()
+	// solution.TestMinimumDeletionForPanlindrome()
+	solution.TestPalindromicPartitioning()
 }

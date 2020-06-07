@@ -32,7 +32,7 @@ func unboundedKnapsack(profits []int, weights []int, capacity int) int {
 	return dp[n-1][capacity]
 }
 
-// TestUnboundedKnapsack
+// TestUnboundedKnapsack is a test
 func TestUnboundedKnapsack() {
 	fmt.Println(unboundedKnapsack([]int{15, 50, 60, 90}, []int{1, 3, 4, 5}, 8))
 	fmt.Println(unboundedKnapsack([]int{15, 50, 60, 90}, []int{1, 3, 4, 5}, 6))

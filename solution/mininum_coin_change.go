@@ -35,7 +35,7 @@ func minimumCoinChange(denominations []int, amount int) int {
 	return dp[n-1][amount]
 }
 
-// TestCoinChange is used for testing
+// TestMinimumCoinChange is used for testing
 func TestMinimumCoinChange() {
 	fmt.Println(minimumCoinChange([]int{1, 2, 3}, 5))
 	fmt.Println(minimumCoinChange([]int{1, 2, 3}, 11))

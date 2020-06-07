@@ -18,7 +18,7 @@ func fibonacciNumber(n int) int {
 	return dp[n-1]
 }
 
-// TestFibonacciNumber is used for testing
+// TestFibinacciNumber is used for testing
 func TestFibinacciNumber() {
 	fmt.Printf("5th Fibonacci is ---> %d\n", fibonacciNumber(5))
 	fmt.Printf("6th Fibonacci is ---> %d\n", fibonacciNumber(6))

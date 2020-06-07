@@ -35,7 +35,7 @@ func maximumRibbonCut(ribbonLengths []int, length int) int {
 	return dp[n-1][length]
 }
 
-// TestCoinChange is used for testing
+// TestMaximumRibbonCut is used for testing
 func TestMaximumRibbonCut() {
 	fmt.Println(maximumRibbonCut([]int{2, 3, 5}, 5))
 	fmt.Println(maximumRibbonCut([]int{2, 3}, 7))

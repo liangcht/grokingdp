@@ -16,19 +16,18 @@ func longestPalindromixSubsequence(input string) int {
 		dp[i][i] = 1
 	}
 	for l := 2; l <= n; l++ {
-		for start := 0; start < n; start++ {
-			for end := start + l - 1; end < n; end++ {
-				if input[start] == input[end] {
-					dp[start][end] = 2
-					if start < end && end > 0 {
-						dp[start][end] += dp[start+1][end-1]
-						continue
-					}
+		for start := 0; start <= n-l; start++ {
+			end := start + l - 1
+			if input[start] == input[end] {
+				dp[start][end] = 2
+				if start < end && end > 0 {
+					dp[start][end] += dp[start+1][end-1]
+					continue
 				}
-				dp[start][end] = dp[start][end-1]
-				if start < end {
-					dp[start][end] = mathutil.MaxInt(dp[start][end], dp[start+1][end])
-				}
+			}
+			dp[start][end] = dp[start][end-1]
+			if start < end {
+				dp[start][end] = mathutil.MaxInt(dp[start][end], dp[start+1][end])
 			}
 		}
 	}
