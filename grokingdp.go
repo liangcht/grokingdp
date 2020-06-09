@@ -17,5 +17,7 @@ func main() {
 	// solution.TestLongestPalindromixSubstring()
 	// solution.TestCountPalindromicSubstring()
 	// solution.TestMinimumDeletionForPanlindrome()
-	solution.TestPalindromicPartitioning()
+	// solution.TestPalindromicPartitioning()
+	// solution.TestLongestCommonSubstring()
+	solution.TestLongestCommonSubsequence()
 }
