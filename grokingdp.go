@@ -19,5 +19,11 @@ func main() {
 	// solution.TestMinimumDeletionForPanlindrome()
 	// solution.TestPalindromicPartitioning()
 	// solution.TestLongestCommonSubstring()
-	solution.TestLongestCommonSubsequence()
+	// solution.TestLongestCommonSubsequence()
+	// solution.TestLongestIncreasingSubsequence()
+	// solution.TestMaximumSumIncreasingSubsequence()
+	// solution.TestShortestCommonSuperSequence()
+	// solution.TestMinimumDeletionToSorted()
+	// solution.TestLongestRepeatingSubsequence()
+	solution.TestSubsequencePatternMatching()
 }
