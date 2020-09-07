@@ -26,6 +26,7 @@ func longestIncreasingSubsequenceClean(nums []int) int {
 }
 
 func longestIncreasingSubsequenceONSpace(nums []int) int {
+	func longestIncreasingSubsequenceONSpace(nums []int) int {
 	//return longestIncreasingSubsequenceRecur(nums, 0, -1)
 	n := len(nums)
 	dp := make([][]int, 2)

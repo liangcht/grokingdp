@@ -25,5 +25,9 @@ func main() {
 	// solution.TestShortestCommonSuperSequence()
 	// solution.TestMinimumDeletionToSorted()
 	// solution.TestLongestRepeatingSubsequence()
-	solution.TestSubsequencePatternMatching()
+	// solution.TestSubsequencePatternMatching()
+	// solution.TestLongestBintonicSubsequence()
+	// solution.TestLongestAlternatingSubsequence()
+	// solution.TestEditDistance()
+	solution.TestStringsInterleaving()
 }

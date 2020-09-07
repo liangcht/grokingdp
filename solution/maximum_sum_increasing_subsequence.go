@@ -24,6 +24,10 @@ func maximumSumIncreasingSubsequence(nums []int) int {
 	return maxSum
 }
 
+func maximumSumIncreasingSubsequenceRecur(nums []int, start int) int {
+	
+}
+
 // TestMaximumSumIncreasingSubsequence is used for testing
 func TestMaximumSumIncreasingSubsequence() {
 	fmt.Println(maximumSumIncreasingSubsequence([]int{4, 1, 2, 6, 10, 1, 12}))
